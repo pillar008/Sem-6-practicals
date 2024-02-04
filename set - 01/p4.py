@@ -5,6 +5,6 @@ value=int(input("Enter a positve number:"))
 
 if(value>0):
     square= math.sqrt(value)
-    print(f"The square root of {value} is {square}.")
+    print("\nThe square root of {value} is {square}.")
 else:
-    print("Error: Please enter a positive number.")
+    print("\nError: Please enter a positive number.")
