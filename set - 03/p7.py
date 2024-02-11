@@ -4,8 +4,6 @@ def func(x):
     for i in range(2,x+1,2):
         if(i%6 != 0):
             print(i)
-        else:
-            return
 
 user=int(input("Enter a number:"))
 func(user)
