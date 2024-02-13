@@ -2,7 +2,7 @@
 
 def encrypt_transposition(plaintext, key):
     # Remove spaces from the plaintext
-    plaintext = plaintext.replace(" ", "")
+    plaintext = plaintext.replace(" " , "")
     
     # Calculate the number of columns based on the key
     num_columns = len(key)
